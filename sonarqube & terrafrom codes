@@ -1,0 +1,19 @@
+Terraform: 
+provider "aws" {
+  access_key = "AKIAZT3SYMLJL6QRJB6W"
+  secret_key = "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"
+  region     = "us-east-1"
+}
+
+resource "aws_instance" "terraform_sfit" {
+  ami           = "ami-01bc990364452ab3e"
+  instance_type = "t2.micro"
+}
+
+ SonarQube: 
+sonar.projectKey=TypeScript sonar.projectName=TypeScript sonar.projectVersion=1.0 sonar.sources=C:\sonar-scanner-5.0.1.3006-windows\conf
+
+ Unbuntu OS: 
+sudo adduser <new-username>
+ sudo usermod -aG sudo <new-username> 
+ sudo su - <new-username>
