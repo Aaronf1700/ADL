@@ -1,0 +1,3 @@
+sudo adduser <new-username>
+sudo usermod -aG sudo <new-username>
+sudo su - <new-username>
